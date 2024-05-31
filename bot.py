@@ -1,4 +1,4 @@
-from pyrogram import Client
+kifrom pyrogram import Client
 from database.ia_filterdb import Media
 from aiohttp import web
 from database.users_chats_db import db
@@ -14,10 +14,10 @@ import asyncio
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name='Auto_Filter_Bot',
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            name='Movieseasonbot',
+            api_id=171db4a0a2e04513941d94722bf2b871,
+            api_hash=24321698,
+            bot_token=6992717069:AAEHbmruQ4aLAXX45DYEcQabcIAHicsu754,
             plugins={"root": "plugins"}
         )
 
